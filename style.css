@@ -1,0 +1,295 @@
+*  {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+/*Header Top*/
+.header {
+	margin-top: 0.2%;
+	background-color: #ae0001;
+}
+.first {
+	margin-top: 1.5%;
+	margin-bottom: 1.7%;
+	color: #fff;
+}
+.navbar1 {
+	margin-top: 0.5%;
+	margin-bottom: 1px;
+	min-height: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #afa9a9;
+} 
+.navbar-nav {
+    /*padding-top: 0.4%;
+    padding-bottom: 0.4%;*/
+}
+.addition>li.list>a.public  {
+	line-height: 14px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 9px;
+	padding-right: 9px;
+	margin-left: 3px;
+    margin-right: 3px;
+	color: #fff;
+
+}
+.addition>li.list1>a.private {
+	padding: 4px 9px;
+    margin: 0 3px;
+}
+.addition>li.list>a.public:hover {
+	background-color: #ae0001;
+	text-decoration: underline;
+}
+.private {
+	background-color: #fff;
+}
+.addition>li.list1>a.private:hover {
+	background-color: #fff;
+	color: #3b5998;
+}
+/*Header Top Completed*/
+/*Second header start*/
+.brand1 {
+	height: unset;
+	width: 100%;
+	margin-left: 9%;
+}
+.nav1 {
+	margin-top: 2%;
+}
+.nav1>li {
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.navbar-nav {
+    width: 100%;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.nav1>li>a {
+	color: #b7b7b7;
+	font-size: 1.1em;
+}
+.nav1>li>a:hover {
+	background-color: unset;
+}
+.nav1>li>a:active {
+	background-color: #b7b7b7;
+	color:  #444;
+}
+
+/*Carousel part start*/
+.slider-content {
+	position: absolute;
+	top: 37%;
+	left: 20%;
+	color: #fff;
+	font-size: 55px;
+	line-height: 59px;
+	word-spacing: 3%;
+}
+button.btn {
+	margin-top: 2%;
+    border-radius: unset;
+}
+
+
+.slider-content1 {
+	position: absolute;
+	top: 40%;
+	text-align: center;
+	color: #fff;
+	font-size: 55px;
+	line-height: 59px;
+	word-spacing: 3%;
+}
+/*Spacer part*/
+.main {
+	background-color: #f6f6f6;
+}
+.para {
+	background-color: #fff;
+	padding-bottom: 1%;
+}
+.para1 {
+	margin-top: 2%;
+    padding-left: 8%;
+    font-size: 20px;
+    color: #9e9e9e;
+    padding-bottom: 1%;
+}
+button.readme {
+	margin-top: 7%;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+/*spacer part complete*/
+/*Information part*/
+.image img {
+	max-width: 100%;
+	height: auto;
+}
+.image {
+	margin-top: 10%;
+	margin-bottom: 6%;
+}
+.image>h2.head2 {
+	font-size: 32px;
+	padding-top: 3%;     
+}
+.image>p.content-para {
+	padding-top: 2.5%;
+	color: #868282;
+	line-height: 25px;
+}
+.image>.span1>a {
+	color: #a03d3d;
+	text-decoration: none;
+}
+.image>.span1>a:hover {
+	color: #444;
+}
+.image>.span1>a>.fa {
+	padding-left: 1.8%;
+}
+.image>.span1:hover {
+	color: #444;
+}
+/*progress section*/
+.section1 {
+	background: url(img/parallax.jpg) ;
+	/*background-position: 50% -6px;*/
+	position: static;
+    padding: 0;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: center 0;
+   
+
+}
+.image1 {
+	padding-top: 3%;
+	margin-bottom: 6%;
+}
+h2.head3{
+    margin-top: 10%;
+    color: #fff;
+
+}
+p.para2 {
+	padding-top: 2%;
+	color: #fff;
+	font-weight: 400;
+	word-spacing: 4px;
+    line-height: 21px;
+}
+.button1 {
+	padding-left: 6%;
+	border-color: unset;
+	border: unset;
+	font-size: 12px;
+	padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.progress {
+	
+	height: 11px;
+	border-radius: unset;
+	background-color: rgba(255,255,255,0.3);
+	margin-bottom: 26px;
+}
+.progress-bar {
+	background-color: #fff;
+}
+.bar-1 {
+   padding-top: 5%;
+   color: #fff;
+}
+.span-progress-start {
+	font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.span-progress-end {
+	font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 0;
+    margin-top: 1%;
+}
+/*gallery part*/
+.image3 {
+	padding-top: 4%;
+}
+.head4 {
+	margin-bottom: 2%;
+}
+.para3 {
+	color: #8a8989;
+	letter-spacing: 1px;
+	padding-bottom: 3%;
+}
+.images {
+	overflow: hidden;
+    margin-bottom: 7%;
+}
+a.gallery_img {
+    width: 25%;
+    float: left;
+} 
+/*.images>a.gallery_img:hover .gallery_hover {
+	opacity: 1;
+}
+.images>a.gallery_img>.gallery_hover {
+	background-color: rgba(40,57,91,.95);
+	
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	display: inline-block;
+	visibility: visible;
+	opacity: 0;
+	-webkit-transition: opacity .4s;
+	z-index: 1000;
+ }
+.images>a.gallery_img>.gallery_hover i {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0 0 -15px;
+    font-size: 30px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+*/
+/*Media query*/
+@media only screen and (max-width: 768px)
+{
+	.header {
+		display: none;
+	}
+	
+
+	.nav1>li>a.start {
+		font-size: 0.8em;
+	}
+}
+
+
